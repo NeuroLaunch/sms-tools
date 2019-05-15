@@ -158,7 +158,7 @@ class StftMorph_frame:
 		self.balancef.insert(0, "0.2")
 
 		#BUTTON TO DO THE SYNTHESIS
-		self.compute = Button(self.parent, text="Apply Transformation", command=self.transformation_synthesis, bg="dark green", fg="white")
+		self.compute = Button(self.parent, text="Apply Transformation", command=self.transformation_synthesis, bg="dark green", fg="white", highlightbackground='#3E4149') #SMB (from web): Button(root, text="Generate", highlightbackground='#3E4149')
 		self.compute.grid(row=11, column=0, padx=5, pady=(10,15), sticky=W)
 
 		#BUTTON TO PLAY TRANSFORMATION SYNTHESIS OUTPUT
